@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&amp;display=swap');
+
+
+a, a:focus, a:hover{ outline:none; text-decoration:none;}
+
+
+body{ background:#fff;  margin:0;  color:#363636; font-size:14px; line-height:20px;  font-family: 'Roboto', sans-serif; 
+    font-weight:400; font-style:normal; overflow-x:hidden;}
+
+ul{ margin:0; padding:0;}
+ul, li{ list-style:none;}
+
+h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif; font-weight:700; color:#041a45; }   
+
+.btn{ background:#0ad9ef; padding:4px 18px; border:none; box-shadow:none !important; color:#fff; font-family: 'Roboto', sans-serif; font-family: 'Roboto', sans-serif; font-weight:400; font-size:16px; border-radius:6px;} 
+.btn:hover{ background:#fa439f; color:#fff;}
+
+.container-fluid{ max-width:1920px;}
+
+.head_lg{ padding:20px 0px;} 
+
+.logo{ float:left; margin-right:80px; }  
+.annoucement{  padding:5px 0px 0px 240px; position:relative; float:left; min-height:30px; margin-top:15px;}
+.anc_img{ width:229px; position:absolute; left:0; top:0;}
+
+.gradient_bg{/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#041a45+22,b2202d+100 */
+background: #041a45; /* Old browsers */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d00000', endColorstr='#0b0000',GradientType=0 ); /* IE6-9 */ 
+border-radius:10px; padding:20px 35px 20px; height: calc(100% - 20px); margin-bottom:20px;
+}
+
+
+.txt1{ font-size:14px; color:#fff; border:#fff 1px solid; width:100%; height:30px; margin-bottom:20px; background:none; padding:0px 10px;} 
+
+.login_f div h4{ color:#fff; font-weight:500; font-size:16px; margin-bottom:20px;} 
+.login_f div{ color:#fff;} .login_f div .rw p{ font-size:16px; margin-bottom:8px;} 
+
+.link1{ color:#fff;} .link1:hover{ text-decoration:underline; color:#fff;} 
+
+.gry_bx{ background:#f5f5f5; border:#e5e5e5 1px solid; border-radius:10px; height: calc(100% - 20px); margin-bottom:20px;} 
+
+.easy_secure{ padding-top:20px;  }
+.center_es{ width:100%; max-width:364px; margin:0 auto;} 
+.easy_secure h4{ font-weight:400; font-size:16px; color:#041a45; margin:0; padding:0px 25px;} 
+.easy_secure h4:after{ content:""; width:60px; height:1px; background:#a9a9a9; display:inline-block; margin-left:5px; position:relative; } 
+.easy_secure h2{ font-size:30px; padding:0px 25px;} 
+
+.contact_bx{ padding:20px;} 
+.contact_bx h3{font-weight:400; font-size:16px; text-align:center; position:relative; margin-bottom:10px; padding-bottom:10px;} 
+.contact_bx h3:before{ content:""; width:60px; height:1px; background:#a9a9a9; position:absolute; left:50%; bottom:0; margin-left:-30px;}
+.contact_bx ul li{ position:relative; padding-left:25px; margin-bottom:15px;} 
+.contact_bx ul li i{ position:absolute; left:0; top:0;} 
+.contact_bx ul li:last-child{ margin-bottom:0px;} 
+.contact_bx .center_es{ max-width:90% !important;}
+
+#bottom_slide .gradient_bg{ height:auto; margin:0; padding:20px 20px 15px; } 
+
+.footer_center{ border-top:#c2c2c2 1px solid; padding:20px 0px; margin-top:30px;} 
+
+.follow_us a{ color:#363636; font-size:20px; margin-left:8px; margin-bottom:3px;} 
+.follow_us a:hover{ color:#ff2222;} 
+
+.m_trns_img{ min-height:195px; display:flex; align-items:flex-end; justify-content:center;} 
+
+.recharge_s{ padding-right:15px;}
+
+
+@media (min-width:992px) and (max-width:1199px){   
+
+.logo{ width:100%; margin-right:0; text-align:center;} 
+.annoucement{ width:100%;}
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){ 
+.logo{ width:100%; margin-right:0; text-align:center;} 
+.annoucement{ width:100%;}
+}
+
+
+@media (max-width:767px){  
+
+.logo{ width:100%; margin-right:0; text-align:center;} 
+.annoucement{ width:100%; padding-left:0; text-align:center;} .anc_img{ position:relative; width:auto; margin-bottom:8px;} 
+.lock{ margin-top:30px;} .gradient_bg{ height:auto; padding:20px;} .gry_bx{ height:auto;} .m_trns_img{ height:auto; margin-top:15px;} 
+.footer_center{ text-align:center;} .follow_us.text-right{ text-align:center !important; margin:12px 0px;}
+
+}
+
